@@ -44,5 +44,6 @@
   input {
     opacity: 1 !important;
     pointer-events: all !important;
+    padding: 10px 20px !important;
   }
 }

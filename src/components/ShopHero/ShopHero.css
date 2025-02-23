@@ -1,6 +1,6 @@
 .shopHero {
   height: calc(50vh - 70px);
-  background-image: url(../../assets/imgs/shop.svg);
+  background-image: url(../../assets/imgs/shop.webp);
   background-size: contain;
   display: flex;
   align-items: center;

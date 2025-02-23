@@ -1,7 +1,7 @@
 import React from "react";
 import Category from "./Category";
 import makeup from "../../assets/imgs/makeup.webp";
-import furniture from "../../assets/imgs/furniture.svg";
+import furniture from "../../assets/imgs/furniture.webp";
 import fragrances from "../../assets/imgs/fragrances.jpg";
 import "./Category.css";
 

@@ -19,7 +19,7 @@ const Sidebar = () => {
       style={{ transform: showSidebar ? "translateX(0)" : "translateX(-100%)" }}
       className="sidebar"
     >
-      <button onClick={() => setShowSidebar(false)}>
+      <button aria-label="close button" onClick={() => setShowSidebar(false)}>
         <IoCloseOutline fontSize={30} />
       </button>
       <SearchForm />

@@ -49,11 +49,14 @@
 
     button{
       position: static;
+      display: flex;
+      align-items: center;
     }
   }
   input {
     opacity: 1 !important;
     pointer-events: all !important;
     padding: 10px 20px !important;
+    width: 200px;
   }
 }

@@ -1,0 +1,33 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #faf3ea;
+  padding: 60px;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  p {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  span {
+    color: #898989;
+  }
+}
+
+@media (max-width: 639px) {
+  .banner {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    align-items: flex-start;
+  }
+}

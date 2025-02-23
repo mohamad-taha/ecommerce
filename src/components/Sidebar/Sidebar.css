@@ -1,0 +1,48 @@
+.sidebar {
+  position: fixed;
+  padding: 30px;
+  background-color: white;
+  height: 100vh;
+  z-index: 1000;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  transition: 200ms;
+
+  > button {
+    align-self: flex-end;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    transition: 200ms;
+  }
+
+  ul a {
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  ul li {
+    transition: 200ms;
+
+    &:hover {
+      transform: scale(0.9);
+    }
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+  }
+
+  input {
+    opacity: 1 !important;
+    pointer-events: all !important;
+  }
+}

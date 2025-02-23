@@ -1,0 +1,17 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.pageBtn {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  transition: 200ms;
+
+  &:hover {
+    background-color: #acacac !important;
+  }
+}

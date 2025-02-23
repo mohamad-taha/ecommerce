@@ -1,0 +1,13 @@
+.filters {
+  height: 100px;
+  background-color: #f9f1e7;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#listSelect {
+  border: none;
+  width: 200px;
+  padding: 10px 10px;
+}

@@ -1,0 +1,66 @@
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cards {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 250px;
+  background-color: #f4f5f7;
+  padding-bottom: 10px;
+
+  &:hover .overlayContent {
+    opacity: 1;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  div {
+    padding: 0 20px;
+  }
+
+  div:last-child {
+    display: flex;
+    justify-content: space-between;
+
+    span {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.overlayContent {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.103);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  transition: 200ms;
+  z-index: 10;
+}
+
+@media (max-width: 1023px) {
+  .cards .card {
+    width: 40% !important;
+  }
+}

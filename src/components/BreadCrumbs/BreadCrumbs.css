@@ -1,0 +1,44 @@
+.breadCrumbs {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  background-color: #f9f1e7;
+
+  p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    span {
+      color: #9f9f9f;
+    }
+  }
+
+  hr {
+    height: 40px;
+  }
+
+  p:last-child {
+    border-left: 1px solid #9f9f9f;
+    margin-left: 20px;
+    padding-left: 20px;
+    height: 50%;
+  }
+}
+
+@media (max-width: 639px) {
+  .breadCrumbs {
+    padding: 5px 20px;
+    height: max-content;
+    flex-direction: column;
+    align-items: flex-start;
+
+    p:last-child {
+      margin-left: 0;
+      padding-left: 0;
+      border-left: none !important;
+      height: fit-content;
+    }
+  }
+}

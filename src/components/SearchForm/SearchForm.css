@@ -1,0 +1,19 @@
+.searchForm {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+
+  input {
+    outline-color: var(--primary);
+    padding: 10px 40px 10px 5px;
+    border-radius: 5px;
+    transition: 200ms;
+    border: 2px solid #666666;
+  }
+
+  button {
+    right: 10px;
+    position: absolute;
+  }
+}

@@ -41,6 +41,16 @@
     border: none;
   }
 
+  form {
+    display: flex;
+    align-items: center;
+    position: static;
+    width: 100%;
+
+    button{
+      position: static;
+    }
+  }
   input {
     opacity: 1 !important;
     pointer-events: all !important;
